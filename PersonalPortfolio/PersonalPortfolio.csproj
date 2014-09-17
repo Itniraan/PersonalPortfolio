@@ -65,7 +65,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\facebook.jpg" />
+    <Content Include="Images\GitHub.png" />
+    <Content Include="Images\linkedin.jpg" />
+    <Content Include="Images\twitter.jpg" />
     <Content Include="privacy.html" />
+    <Content Include="Scripts\raphael-min.js" />
     <Content Include="Styles\main.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\main.js" />
@@ -76,9 +81,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

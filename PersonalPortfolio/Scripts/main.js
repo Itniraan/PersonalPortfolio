@@ -6,5 +6,12 @@ Purpose: This file contains all of the javascript and jQuery functions that are 
 */
 
 $(document).ready(
-    console.log("jQuery Test!!")
 );
+
+$("#privacy").click(function () {
+    alert("jQuery Test!!");
+});
+
+$("#termsOfUse").click(function () {
+    alert("jQuery Test!!");
+});
