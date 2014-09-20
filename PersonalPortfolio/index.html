@@ -4,13 +4,16 @@
 <!--Website Name: Personal Portfolio for Blake Murdock-->
 <!--Purpose: This is the index page to my portfolio website.-->
 <!--Through this page, the user can access the rest of the website.-->
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>Blake Murdock | Home</title>
     <!--CSS and Favicon links are below-->
+    <link href="Styles/reset.css" rel="stylesheet" />
+    <link href="Styles/foundation.min.css" rel="stylesheet" />
     <link href="Styles/main.css" rel="stylesheet" />
     <link href="Images/shortcut-logo.ico" rel="shortcut icon" />
+</head>
 <body>
     <header>
         <nav id="nav">
@@ -66,7 +69,7 @@
 
         </section>
         <section id="projects">
-            <h1>Projects i've worked on in the past</h1>
+            <h1>Projects I've Worked On In The Past</h1>
             <div id="project1">
 
             </div>
@@ -83,11 +86,20 @@
         </section>
     </content>
     <footer>
-        <small>&#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved. <a href="#privacy" id="privacy">Privacy Policy</a> | <a href="#termsofuse" id="termsOfUse">Terms of Use</a> | <a href="#top">Back to top</a></small>
+        <small>
+            &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.
+            <a href="http://www.blakemurdock.ca/privacy.html" id="privacy">Privacy Policy</a> | <a href="http://www.blakemurdock.ca/termsofuse.html">Terms of Use</a>
+            | Created proudly with <a href="http://foundation.zurb.com/">Foundation 5</a> framework
+        </small>
     </footer>
     <!-- Javascript files are below -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="Scripts/raphael-min.js"></script>
+    <script src="Scripts/fastclick.js"></script>
+    <script src="Scripts/jquery.cookie.js"></script>
+    <script src="Scripts/modernizr.js"></script>
+    <script src="Scripts/placeholder.js"></script>
+    <script src="Scripts/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
     <script src="Scripts/main.js"></script>
 </body>
 </html>
