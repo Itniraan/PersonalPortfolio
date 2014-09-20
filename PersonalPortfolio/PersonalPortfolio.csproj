@@ -68,6 +68,8 @@
     <Content Include="Images\facebook.jpg" />
     <Content Include="Images\GitHub.png" />
     <Content Include="Images\linkedin.jpg" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\shortcut-logo.ico" />
     <Content Include="Images\twitter.jpg" />
     <Content Include="privacy.html" />
     <Content Include="Scripts\raphael-min.js" />
