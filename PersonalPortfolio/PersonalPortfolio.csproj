@@ -67,8 +67,15 @@
   <ItemGroup>
     <Content Include="Images\facebook.jpg" />
     <Content Include="Images\GitHub.png" />
+    <Content Include="Images\Icons\fi-book.svg" />
+    <Content Include="Images\Icons\fi-home.svg" />
+    <Content Include="Images\Icons\fi-list.svg" />
+    <Content Include="Images\Icons\fi-mail.svg" />
+    <Content Include="Images\Icons\fi-monitor.svg" />
+    <Content Include="Images\Icons\fi-widget.svg" />
     <Content Include="Images\linkedin.jpg" />
     <Content Include="Images\logo.jpg" />
+    <Content Include="Images\menu-24-24.png" />
     <Content Include="Images\shortcut-logo.ico" />
     <Content Include="Images\twitter.jpg" />
     <Content Include="privacy.html" />
@@ -77,8 +84,9 @@
     <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\modernizr.js" />
     <Content Include="Scripts\placeholder.js" />
+    <Content Include="Styles\foundation-icons.css" />
     <Content Include="Styles\foundation.min.css" />
-    <Content Include="Styles\main.css" />
+    <Content Include="Styles\app.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\main.js" />
     <None Include="Scripts\_references.js" />

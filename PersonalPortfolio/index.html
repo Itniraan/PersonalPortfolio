@@ -7,96 +7,101 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blake Murdock | Home</title>
     <!--CSS and Favicon links are below-->
     <link href="Styles/reset.css" rel="stylesheet" />
     <link href="Styles/foundation.min.css" rel="stylesheet" />
-    <link href="Styles/main.css" rel="stylesheet" />
+    <link href="Styles/foundation-icons.css" rel="stylesheet" />
+    <link href="Styles/app.css" rel="stylesheet" />
+    <!--modernizr.js needs to go at the top of the document-->
+    <script src="Scripts/modernizr.js"></script>
     <link href="Images/shortcut-logo.ico" rel="shortcut icon" />
 </head>
 <body>
-    <header>
-        <nav id="nav">
-            <table>
-                <tbody>
-                    <tr>
-                        <th><a href="#about">About Me</a></th>
-                        <td>25%</td>
-                    </tr>
-                    <tr>
-                        <th><a href="#services">Services</a></th>
-                        <td>25%</td>
-                    </tr>
-                    <tr>
-                        <th><a href="#projects">Projects</a></th>
-                        <td>25%</td>
-                    </tr>
-                    <tr>
-                        <th><a href="#contact">Contact Me</a></th>
-                        <td>25%</td>
-                    </tr>
-                </tbody>
-            </table>
-        </nav>
-    </header>
-    <content>
-        <section id="top">
-            <h1>My name is Blake Murdock</h1>
-            <h2>Part Developer, Part Designer, All Techy</h2>
-            <p>Welcome to my website! Please feel free to look around, browse through some of my past projects, and perhaps 
-            you could even drop me a line, through my contact page. </p>
-            <p><h3>Why I do what I do: </h3>I've always had a passion for technology, for as long as I can remember. Over time, this has translated into 
-            a love for computers, programming, and all things tech. I believe that to truly create amazing websites and programs, you need to have 
-            a true love for the entire field. </p>
-            <div id="callToAction">
-                <h5>If you'd like, please take a look at some of my past <a href="#projects">projects</a>. Or perhaps you'd like to take a look 
-                at some of the <a href="#services">services</a> I offer?</h5>
+    <div class="off-canvas-wrap docs-wrap" data-offcanvas="">
+        <div class="inner-wrap">
+            <div class="left-small">
+                <a role="button" class="left-off-canvas-toggle" href="#menu"><img src="Images/Icons/fi-list.svg" /></a>
             </div>
-            <div id="connect">
-                <h4>Keep Connected with Me!</h4>
-                <a href="https://github.com/Itniraan"><img src="Images/GitHub.png" width="32" height="32" /></a>
-                <a href="http://ca.linkedin.com/in/blakemurdock/"><img src="Images/linkedin.jpg" width="32" height="32" /></a>
-                <a href="https://www.facebook.com/blake.murdock1"><img src="Images/facebook.jpg" width="32" height="32" /></a>
-                <a href="https://twitter.com/itniraan"><img src="Images/twitter.jpg" width="32" height="32" /></a>
+            <header>
+                <div class="row">
+                    <h1 class="small-12 small-centered columns" id="centre">My name is Blake Murdock</h1>
+                </div>
+
+                <div class="row">
+                    <h2 class="small-12 small-centered columns" id="centre">Part Developer, Part Designer, All Techy</h2>
+                </div>
+            </header>
+            <div class="row">
+                <p>
+                    Welcome to my website! Please feel free to look around, browse through some of my past projects, and perhaps
+                    you could even drop me a line, through my contact page.
+                </p>
             </div>
-        </section>
-        <section id="about">
-            <h1 id="aboutTitle">A little about myself</h1>
-            <p></p>
-        </section>
-        <section id="services">
-            <h1>Services I Offer</h1>
 
-        </section>
-        <section id="projects">
-            <h1>Projects I've Worked On In The Past</h1>
-            <div id="project1">
-
+            <div class="row">
+                <p>
+                    <h3>Why I do what I do: </h3>I've always had a passion for technology, for as long as I can remember. Over time, this has translated into
+                    a love for computers, programming, and all things tech. I believe that to truly create amazing websites and programs, you need to have
+                    a true love for the entire field.
+                </p>
             </div>
-            <div id="project2">
 
+
+            <div id="callToAction" class="row">
+                <h5 class="small-9 columns">
+                    If you'd like, please take a look at some of my past <a href="#projects">projects</a>. Or perhaps you'd like to take a look
+                    at some of the <a href="#services">services</a> I offer?
+                </h5>
+                <aside id="connect" class="small-3 columns">
+                    <h4>Keep Connected with Me!</h4>
+                    <a href="https://github.com/Itniraan"><img src="Images/GitHub.png" width="32" height="32" /></a>
+                    <a href="http://ca.linkedin.com/in/blakemurdock/"><img src="Images/linkedin.jpg" width="32" height="32" /></a>
+                    <a href="https://www.facebook.com/blake.murdock1"><img src="Images/facebook.jpg" width="32" height="32" /></a>
+                    <a href="https://twitter.com/itniraan"><img src="Images/twitter.jpg" width="32" height="32" /></a>
+                </aside>
             </div>
-            <div id="project3">
-
-            </div>
-        </section>
-        <section id="contact">
-            <h1>Contact Me</h1>
-
-        </section>
-    </content>
-    <footer>
-        <small>
-            &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.
-            <a href="http://www.blakemurdock.ca/privacy.html" id="privacy">Privacy Policy</a> | <a href="http://www.blakemurdock.ca/termsofuse.html">Terms of Use</a>
-            | Created proudly with <a href="http://foundation.zurb.com/">Foundation 5</a> framework
-        </small>
-    </footer>
+            <footer class="row">
+                <small class="small-12 columns">
+                    &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.
+                    <a href="http://www.blakemurdock.ca/privacy.html" id="privacy">Privacy Policy</a> | <a href="http://www.blakemurdock.ca/termsofuse.html">Terms of Use</a>
+                    | Created proudly with <a href="http://foundation.zurb.com/">Foundation 5</a> framework
+                </small>
+            </footer>
+            <aside id="menu" class="left-off-canvas-menu">
+                <nav>
+                    <div class="icon-bar vertical five-up">
+                        <a class="item">
+                            <img src="Images/Icons/fi-home.svg" />
+                            <label>Home</label>
+                        </a>
+                        <a class="item">
+                            <img src="Images/Icons/fi-book.svg" />
+                            <label>About Me</label>
+                        </a>
+                        <a class="item">
+                            <img src="Images/Icons/fi-monitor.svg" />
+                            <label>Past Projects</label>
+                        </a>
+                        <a class="item">
+                            <img src="Images/Icons/fi-widget.svg" />
+                            <label>Services</label>
+                        </a>
+                        <a class="item">
+                            <img src="Images/Icons/fi-mail.svg" />
+                            <label>Contact Me</label>
+                        </a>
+                    </div>
+</nav>
+            </aside>
+            <a class="exit-off-canvas"></a>
+        </div>
+    </div>
     <!-- Javascript files are below -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="Scripts/fastclick.js"></script>
     <script src="Scripts/jquery.cookie.js"></script>
-    <script src="Scripts/modernizr.js"></script>
     <script src="Scripts/placeholder.js"></script>
     <script src="Scripts/foundation.min.js"></script>
     <script>$(document).foundation();</script>

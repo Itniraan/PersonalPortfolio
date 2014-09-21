@@ -4,5 +4,10 @@
     Website Name: Personal Portfolio for Blake Murdock
     Purpose: This file contains all of the CSS styles for my portfolio website
 */
-header nav #nav {
+
+aside {
+    outline: 2px solid black;
+}
+#centre {
+    text-align: center;
 }
