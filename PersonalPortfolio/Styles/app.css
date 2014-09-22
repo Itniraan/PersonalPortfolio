@@ -8,6 +8,11 @@
 aside {
     outline: 2px solid black;
 }
+
 #centre {
     text-align: center;
+}
+
+#active {
+    background: white;
 }

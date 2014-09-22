@@ -65,6 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="contact.html" />
+    <Content Include="humans.txt" />
     <Content Include="Images\facebook.jpg" />
     <Content Include="Images\GitHub.png" />
     <Content Include="Images\Icons\fi-book.svg" />
@@ -75,15 +78,17 @@
     <Content Include="Images\Icons\fi-widget.svg" />
     <Content Include="Images\linkedin.jpg" />
     <Content Include="Images\logo.jpg" />
-    <Content Include="Images\menu-24-24.png" />
     <Content Include="Images\shortcut-logo.ico" />
     <Content Include="Images\twitter.jpg" />
     <Content Include="privacy.html" />
+    <Content Include="projects.html" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\fastclick.js" />
     <Content Include="Scripts\foundation.min.js" />
     <Content Include="Scripts\jquery.cookie.js" />
     <Content Include="Scripts\modernizr.js" />
     <Content Include="Scripts\placeholder.js" />
+    <Content Include="services.html" />
     <Content Include="Styles\foundation-icons.css" />
     <Content Include="Styles\foundation.min.css" />
     <Content Include="Styles\app.css" />
