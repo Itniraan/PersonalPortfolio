@@ -4,7 +4,6 @@
     Website Name: Personal Portfolio for Blake Murdock
     Purpose: This file contains all of the CSS styles for my portfolio website
 */
-
 aside {
     outline: 2px solid black;
 }
@@ -13,6 +12,30 @@ aside {
     text-align: center;
 }
 
-#active {
+/*#active {
     background: white;
+    color: black;
+}*/
+
+#projSlider {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slider {
+    float: right;
+    display: inline-block;
+}
+
+#connect {
+    display: block;
+}
+
+div.orbit-container {
+    width: 65%;
+}
+
+nav {
+    float: left;
+    display: inline-block;
 }

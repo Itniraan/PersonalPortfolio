@@ -78,6 +78,7 @@
     <Content Include="Images\Icons\fi-widget.svg" />
     <Content Include="Images\linkedin.jpg" />
     <Content Include="Images\logo.jpg" />
+    <Content Include="Images\project-screens\CMS.png" />
     <Content Include="Images\shortcut-logo.ico" />
     <Content Include="Images\twitter.jpg" />
     <Content Include="privacy.html" />

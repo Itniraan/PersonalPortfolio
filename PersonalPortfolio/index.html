@@ -19,85 +19,91 @@
     <link href="Images/shortcut-logo.ico" rel="shortcut icon" />
 </head>
 <body>
-    <div class="off-canvas-wrap docs-wrap" data-offcanvas="">
-        <div class="inner-wrap">
-            <div class="left-small">
-                <a role="button" class="left-off-canvas-toggle" href="#menu"><img src="Images/Icons/fi-list.svg" /></a>
+    <header>
+        <nav>
+            <div class="icon-bar vertical five-up">
+                <a id="active" class="item" href="index.html">
+                    <img src="Images/Icons/fi-home.svg" />
+                    <label>Home</label>
+                </a>
+                <a class="item" href="about.html">
+                    <img src="Images/Icons/fi-book.svg" />
+                    <label>About Me</label>
+                </a>
+                <a class="item" href="projects.html">
+                    <img src="Images/Icons/fi-monitor.svg" />
+                    <label>Past Projects</label>
+                </a>
+                <a class="item" href="services.html">
+                    <img src="Images/Icons/fi-widget.svg" />
+                    <label>Services</label>
+                </a>
+                <a class="item" href="contact.html">
+                    <img src="Images/Icons/fi-mail.svg" />
+                    <label>Contact Me</label>
+                </a>
             </div>
-            <header>
-                <div class="row">
-                    <h1 class="small-12 small-centered columns" id="centre">My name is Blake Murdock</h1>
-                </div>
-
-                <div class="row">
-                    <h2 class="small-12 small-centered columns" id="centre">Part Developer, Part Designer, All Techy</h2>
-                </div>
-            </header>
-            <div class="row">
-                <p>
-                    Welcome to my website! Please feel free to look around, browse through some of my past projects, and perhaps
-                    you could even drop me a line, through my contact page.
-                </p>
-            </div>
-
-            <div class="row">
-                <p>
-                    <h3>Why I do what I do: </h3>I've always had a passion for technology, for as long as I can remember. Over time, this has translated into
-                    a love for computers, programming, and all things tech. I believe that to truly create amazing websites and programs, you need to have
-                    a true love for the entire field.
-                </p>
-            </div>
-
-
-            <div id="callToAction" class="row">
-                <h5 class="small-9 columns">
-                    If you'd like, please take a look at some of my past <a href="#projects">projects</a>. Or perhaps you'd like to take a look
-                    at some of the <a href="#services">services</a> I offer?
-                </h5>
-                <aside id="connect" class="small-3 columns">
-                    <h4>Keep Connected with Me!</h4>
-                    <a href="https://github.com/Itniraan"><img src="Images/GitHub.png" width="32" height="32" /></a>
-                    <a href="http://ca.linkedin.com/in/blakemurdock/"><img src="Images/linkedin.jpg" width="32" height="32" /></a>
-                    <a href="https://www.facebook.com/blake.murdock1"><img src="Images/facebook.jpg" width="32" height="32" /></a>
-                    <a href="https://twitter.com/itniraan"><img src="Images/twitter.jpg" width="32" height="32" /></a>
-                </aside>
-            </div>
-            <footer class="row">
-                <small class="small-12 columns">
-                    &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.
-                    <a href="http://www.blakemurdock.ca/privacy.html" id="privacy">Privacy Policy</a> | <a href="http://www.blakemurdock.ca/termsofuse.html">Terms of Use</a>
-                    | Created proudly with <a href="http://foundation.zurb.com/">Foundation 5</a> framework
-                </small>
-            </footer>
-            <aside id="menu" class="left-off-canvas-menu">
-                <nav>
-                    <div class="icon-bar vertical five-up">
-                        <a class="item">
-                            <img src="Images/Icons/fi-home.svg" />
-                            <label>Home</label>
-                        </a>
-                        <a class="item">
-                            <img src="Images/Icons/fi-book.svg" />
-                            <label>About Me</label>
-                        </a>
-                        <a class="item">
-                            <img src="Images/Icons/fi-monitor.svg" />
-                            <label>Past Projects</label>
-                        </a>
-                        <a class="item">
-                            <img src="Images/Icons/fi-widget.svg" />
-                            <label>Services</label>
-                        </a>
-                        <a class="item">
-                            <img src="Images/Icons/fi-mail.svg" />
-                            <label>Contact Me</label>
-                        </a>
-                    </div>
-                </nav>
-            </aside>
-            <a class="exit-off-canvas"></a>
+        </nav>
+    </header>
+    <div class="row">
+            <h1 class="small-6 large-5 small-centered columns" id="centre">My name is Blake Murdock</h1>
+            <h2 class="small-6 large-5 small-centered columns" id="centre">Part Developer, Part Designer, All Techy</h2>
+        <br />
+        <div class="row">
+            <p class="small-12 columns">
+                Welcome to my website! Please feel free to look around, browse through some of my past projects, and perhaps
+                you could even drop me a line, through my contact page.
+            </p>
+        </div>
+        <div class="row">
+            <p class="small-12 columns">
+                <h3>Why I do what I do: </h3>I've always had a passion for technology, for as long as I can remember. Over time, this has translated into
+                a love for computers, programming, and all things tech. I believe that to truly create amazing websites and programs, you need to have
+                a true love for the entire field.
+            </p>
         </div>
     </div>
+
+    <div id="slider" class="row">
+        <h4>Some of my past projects</h4>
+        <ul data-orbit class="small-12 small-centered columns">
+            <li class="active">
+                <a href="projects.html#pro1"><img id="projSlider" src="/Images/project-screens/CMS.png" alt="Project 1" width="506" height="228" /></a>
+                <div class="orbit-caption">
+                    Content Management System
+                </div>
+            </li>
+            <li>
+                <img src="Images/GitHub.png" alt="Project 2" />
+                <div class="orbit-caption">
+                    Caption Two.
+                </div>
+            </li>
+            <li>
+                <img src="Images/linkedin.jpg" alt="Project 3" />
+                <div class="orbit-caption">
+                    Caption Three.
+                </div>
+            </li>
+        </ul>
+        <div id="connect" class="row">
+            <aside class="small-3 columns">
+                <h4>Keep Connected with Me!</h4>
+                <a href="https://github.com/Itniraan"><img src="Images/GitHub.png" width="32" height="32" /></a>
+                <a href="http://ca.linkedin.com/in/blakemurdock/"><img src="Images/linkedin.jpg" width="32" height="32" /></a>
+                <a href="https://www.facebook.com/blake.murdock1"><img src="Images/facebook.jpg" width="32" height="32" /></a>
+                <a href="https://twitter.com/itniraan"><img src="Images/twitter.jpg" width="32" height="32" /></a>
+            </aside>
+        </div>
+    </div>
+    <footer class="row">
+        <small class="small-12 columns">
+            &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.
+            <a href="privacy.html" id="privacy">Privacy Policy</a> | <a href="termsofuse.html">Terms of Use</a>
+            | Created proudly with <a href="http://foundation.zurb.com/">Foundation 5</a> framework
+        </small>
+    </footer>
+
     <!-- Javascript files are below -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="Scripts/fastclick.js"></script>
