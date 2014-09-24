@@ -4,6 +4,15 @@
     Website Name: Personal Portfolio for Blake Murdock
     Purpose: This file contains all of the CSS styles for my portfolio website
 */
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #0B3B0B;
+}
+
 aside {
     outline: 2px solid black;
 }
@@ -32,15 +41,43 @@ aside {
 }
 
 .title {
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 div.orbit-container {
     width: 65%;
 }
 
+div.icon-bar.vertical.nine-up {
+    height: 100vh;
+    background-color: #04B404;
+}
+
 nav {
+    background-color: #04B404;
     float: left;
     display: inline-block;
+    max-height: 100%;
+    clear: left;
+}
+
+a.item {
+    height: 5%;
+}
+
+img#logo {
+    margin-left: 43%;
+}
+
+h1, h2, h3, h4, h5, p, small, p.small-12.columns {
+    color: white;
+}
+
+#tag {
+    text-transform: uppercase;
+}
+
+.icon-bar.vertical .item, .icon-bar.small-vertical .item {
+    height: 11.11vh;
 }

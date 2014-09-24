@@ -82,7 +82,8 @@
     <Content Include="Images\project-screens\CMS.png" />
     <Content Include="Images\project-screens\dom.png" />
     <Content Include="Images\shortcut-logo.ico" />
-    <Content Include="Images\twitter.jpg" />
+    <Content Include="Images\Twitter_logo_blue-small-white.png" />
+    <Content Include="Images\Twitter_logo_blue-small.png" />
     <Content Include="privacy.html" />
     <Content Include="projects.html" />
     <Content Include="robots.txt" />
