@@ -73,6 +73,7 @@ img#logo {
     position: relative;
     float: left;
 }
+
 .right {
     float: right;
 }
@@ -97,6 +98,13 @@ ul.breadcrumbs.small-centered {
     display: block;
 }
 
-input.invalid, textarea.invalid{
+input.invalid, textarea.invalid {
     border: 2px solid red;
+}
+
+a {
+    -webkit-animation: moveToLeft .6s ease both;
+    -moz-animation: moveToLeft .6s ease both;
+    -o-animation: moveToLeft .6s ease both;
+    animation: moveToLeft .6s ease both;
 }
