@@ -2,16 +2,11 @@
 File Name: main.js
 Author: Blake Murdock
 Website Name: Personal Portfolio for Blake Murdock
-Purpose: This file contains all of the javascript and jQuery functions that are used on my portfolio website
+Purpose: This file contains all of the javascript and jQuery functions that are used by my portfolio website
 */
 
-$(document).ready(function() {
-    // media query event handler
-    if (matchMedia) {
-        var mq = window.matchMedia("(min-width: 500px)");
-        mq.addListener(WidthChange);
-        WidthChange(mq);
-    }})
+$(document).ready(function () {
+})
 
 $("#privacy").click(function () {
     alert("jQuery Test!!");

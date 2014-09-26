@@ -21,7 +21,8 @@
     <header>
         <nav>
             <!--Left Side Navigation Bar, built with Foundation5-->
-            <div class="icon-bar vertical nine-up">
+            <!--Only shows on medium screens and up. Otherwise, switches to breadcrumb navigation-->
+            <div class="icon-bar vertical show-for-medium-up nine-up">
                 <a class="item" href="index.html">
                     <img src="Images/Icons/fi-home.svg" />
                     <label>Home</label>
@@ -40,7 +41,7 @@
                 </a>
                 <a id="active" class="item" href="contact.html">
                     <img src="Images/Icons/fi-mail.svg" />
-                    <label>Contact Me</label>
+                    <label id="activeL">Contact Me</label>
                 </a>
                 <a class="item" href="https://github.com/Itniraan"><img src="Images/GitHub.png" width="32" height="32" /></a>
                 <a class="item" href="http://ca.linkedin.com/in/blakemurdock/"><img src="Images/linkedin.jpg" width="32" height="32" /></a>
@@ -49,6 +50,28 @@
             </div>
         </nav>
     </header>
+    <ul class="breadcrumbs centre show-for-small-only" role="menubar" aria-label="breadcrumbs">
+        <li role="menuitem"><a href="index.html">Home</a></li>
+        <li role="menuitem"><a href="about.html">About Me</a></li>
+        <li role="menuitem"><a href="projects.html">Past Projects</a></li>
+        <li role="menuitem"><a href="services.html">Services</a></li>
+        <li class="current" role="menuitem"><a href="contact.html">Contact Me</a></li>
+        <br />
+        <li class="unavailable"><strong>Connect:</strong> </li>
+        <li role="menuitem"><a href="https://github.com/Itniraan">Github</a></lirole>
+        <li role="menuitem"><a href="http://ca.linkedin.com/in/blakemurdock/">Linkedin</a></li>
+        <li role="menuitem"><a href="https://www.facebook.com/blake.murdock1">Facebook</a></li>
+        <li role="menuitem"><a href="https://twitter.com/itniraan">Twitter</a></li>
+    </ul>
+    <section class="row">
+        <h1 class="small-centered title">Ways to Contact Me</h1>
+        <h4>I can be contacted though email at <a href="mailto:blakemurdo@gmail.com">blakemurdo@gmail.com</a></h4>
+        <h5>
+            Or through one of the following social media accounts: <a href="https://github.com/Itniraan">Github</a>,
+            <a href="http://ca.linkedin.com/in/blakemurdock/">Linkedin</a>, <a href="https://www.facebook.com/blake.murdock1">Facebook</a>,
+            or <a href="https://twitter.com/itniraan">Twitter</a>
+        </h5>
+    </section>
     <footer class="row">
         <small class="small-12 columns">
             &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.

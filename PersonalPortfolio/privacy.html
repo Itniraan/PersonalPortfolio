@@ -20,7 +20,8 @@
     <header>
         <nav>
             <!--Left Side Navigation Bar, built with Foundation5-->
-            <div class="icon-bar vertical nine-up">
+            <!--Only shows on medium screens and up. Otherwise, switches to breadcrumb navigation-->
+            <div class="icon-bar vertical show-for-medium-up nine-up">
                 <a class="item" href="index.html">
                     <img src="Images/Icons/fi-home.svg" />
                     <label>Home</label>
@@ -48,6 +49,13 @@
             </div>
         </nav>
     </header>
+    <ul class="breadcrumbs small-centered show-for-small-only" role="menubar" aria-label="breadcrumbs">
+        <li role="menuitem"><a href="index.html">Home</a></li>
+        <li class="current" role="menuitem"><a href="about.html">About Me</a></li>
+        <li role="menuitem"><a href="projects.html">Past Projects</a></li>
+        <li role="menuitem"><a href="services.html">Services</a></li>
+        <li role="menuitem"><a href="contact.html">Contact Me</a></li>
+    </ul>
     <footer class="row">
         <small class="small-12 columns">
             &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.

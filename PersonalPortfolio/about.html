@@ -21,14 +21,15 @@
     <header>
         <nav>
             <!--Left Side Navigation Bar, built with Foundation5-->
-            <div class="icon-bar vertical nine-up">
+            <!--Only shows on medium screens and up. Otherwise, switches to breadcrumb navigation-->
+            <div class="icon-bar vertical show-for-medium-up nine-up">
                 <a class="item" href="index.html">
                     <img src="Images/Icons/fi-home.svg" />
                     <label>Home</label>
                 </a>
                 <a id="active" class="item" href="about.html">
                     <img src="Images/Icons/fi-book.svg" />
-                    <label>About Me</label>
+                    <label id="activeL">About Me</label>
                 </a>
                 <a class="item" href="projects.html">
                     <img src="Images/Icons/fi-monitor.svg" />
@@ -49,18 +50,29 @@
             </div>
         </nav>
     </header>
-    <section class="row">
+    <ul class="breadcrumbs centre show-for-small-only" role="menubar" aria-label="breadcrumbs">
+        <li role="menuitem"><a href="index.html">Home</a></li>
+        <li class="current" role="menuitem"><a href="about.html">About Me</a></li>
+        <li role="menuitem"><a href="projects.html">Past Projects</a></li>
+        <li role="menuitem"><a href="services.html">Services</a></li>
+        <li role="menuitem"><a href="contact.html">Contact Me</a></li>
+        <br />
+        <li class="unavailable"><strong>Connect:</strong> </li>
+        <li role="menuitem"><a href="https://github.com/Itniraan">Github</a></lirole>
+        <li role="menuitem"><a href="http://ca.linkedin.com/in/blakemurdock/">Linkedin</a></li>
+        <li role="menuitem"><a href="https://www.facebook.com/blake.murdock1">Facebook</a></li>
+        <li role="menuitem"><a href="https://twitter.com/itniraan">Twitter</a></li>
+    </ul>
+    <main class="row">
         <h1 class="small-6 small-centered columns title">A little about me</h1>
-        <div class="row">
-            <main class="small-6 columns">
-                <p>
-                    I'm a programmer in his late twenties, always looking for a new challenge. I'm currently in my third learning semester of
-                    the Computer Programmer Analyst program at <a href="http://www.georgiancollege.ca/">Georgian College</a>, and am looking forward to all
-                    of the things i'll learn in the coming years.
-                </p>
-                <p>
-                    Currenly, I have experience in the following technologies: 
-                </p>
+        <section class="row">
+            <p class="small-6 columns">
+                I'm a programmer in his late twenties, always looking for a new challenge. I'm currently in my third learning semester of
+                the Computer Programmer Analyst program at <a href="http://www.georgiancollege.ca/">Georgian College</a>, and am looking forward to all
+                of the things i'll learn in the coming years.
+            </p>
+            <p class="small-6 columns">
+                Currenly, I have experience in the following technologies:
                 <ul id="techList">
                     <li>Java</li>
                     <li>Visual C#</li>
@@ -77,11 +89,15 @@
                     <li>AIX Unix Administration</li>
                     <li>Unix Bash Shell Scripting</li>
                 </ul>
-                <p>I also have experience with Project Management techniques, including both Agile and Waterfall methodologies, 
-                and the SDLC (System Development Life Cycle)</p>
-            </main>
+            </p>
+        </section>
+        <div class="row">
+            <p class="small-12 columns">
+                I also have experience with Project Management techniques, including both Agile and Waterfall methodologies,
+                and the SDLC (System Development Life Cycle)
+            </p>
         </div>
-    </section>
+    </main>
     <footer class="row">
         <small class="small-12 columns">
             &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.

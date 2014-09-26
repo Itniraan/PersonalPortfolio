@@ -21,10 +21,13 @@ aside {
     text-align: center;
 }
 
-/*#active {
-    background: white;
+#active {
+    background: #A0F595;
+}
+
+label#activeL {
     color: black;
-}*/
+}
 
 .projSlider {
     margin-left: auto;
@@ -74,7 +77,7 @@ img#logo {
     float: right;
 }
 
-h1, h2, h3, h4, h5, p, small, p.small-12.columns, ul#techList {
+h1, h2, h3, h4, h5, p, small, p.small-12.columns, ul#techList, label {
     color: white;
 }
 
@@ -92,4 +95,8 @@ p {
 
 ul.breadcrumbs.small-centered {
     display: block;
+}
+
+input.invalid, textarea.invalid{
+    border: 2px solid red;
 }
