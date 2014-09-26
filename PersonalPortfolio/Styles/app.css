@@ -33,7 +33,7 @@ aside {
 
 #slider {
     float: right;
-    display: inline-block;
+    display: block;
 }
 
 #connect {
@@ -67,10 +67,14 @@ a.item {
 }
 
 img#logo {
-    margin-left: 43%;
+    position: relative;
+    float: left;
+}
+.right {
+    float: right;
 }
 
-h1, h2, h3, h4, h5, p, small, p.small-12.columns {
+h1, h2, h3, h4, h5, p, small, p.small-12.columns, ul#techList {
     color: white;
 }
 
@@ -78,6 +82,14 @@ h1, h2, h3, h4, h5, p, small, p.small-12.columns {
     text-transform: uppercase;
 }
 
+p {
+    font-size: medium;
+}
+
 .icon-bar.vertical .item, .icon-bar.small-vertical .item {
     height: 11.11vh;
+}
+
+ul.breadcrumbs.small-centered {
+    display: block;
 }
