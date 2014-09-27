@@ -72,21 +72,23 @@
             or <a href="https://twitter.com/itniraan">Twitter</a>
         </h5>
         <h3>Or using the form below: </h3>
+        <form action="send.php" method="post">
+            <fieldset class="small-10 columns">
+                <legend>Contact Form</legend>
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" />
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" />
+                <label for="email">Email</label>
+                <input type="email" name="email" />
+                <label for="message">Message</label>
+                <textarea name="message"></textarea>
+                <input type="submit" name="submit" value="Submit Form" />
+                <input type="reset" name="reset" value="Reset Form" />
+            </fieldset>
+        </form>
     </section>
-    <form action="send.php" method="post">
-        <fieldset>
-            <legend>Contact Form</legend>
-            <label for="fName">First Name</label>
-            <input type="text" name="fName" />
-            <label for="lName">Last Name</label>
-            <input type="text" name="lName" />
-            <label for="email">Email</label>
-            <input type="email" name="email" />
-            <textarea name="message"></textarea>
-            <input type="submit" name="submit" value="Submit Form" />
-            <input type="reset" name="reset" value="Reset Form" />
-        </fieldset>
-    </form>
+
     <footer class="row">
         <small class="small-12 columns">
             &#169; <a href="mailto:blakemurdo@gmail.com">Blake Murdock</a>, 2014, All rights reserved.

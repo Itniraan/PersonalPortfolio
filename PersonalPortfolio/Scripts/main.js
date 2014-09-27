@@ -17,6 +17,8 @@ $(document).ready(function () {
         $('a[href]').click(function (event) {
             // Assign variable url to the attribute of the href (The web address)
             var url = $(this).attr('href');
+            // Prevent page from changing when href==# (This is used to stop page transition for my slider arrows
+            if (url.indexOf('#') == 0) return; 
             // Prevent immediate loading of link
             event.preventDefault();
             // Fade out current window
