@@ -102,9 +102,6 @@ input.invalid, textarea.invalid {
     border: 2px solid red;
 }
 
-a {
-    -webkit-animation: moveToLeft .6s ease both;
-    -moz-animation: moveToLeft .6s ease both;
-    -o-animation: moveToLeft .6s ease both;
-    animation: moveToLeft .6s ease both;
+html.jsNotLoaded {
+    display: none;
 }

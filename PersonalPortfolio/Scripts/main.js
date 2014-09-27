@@ -5,38 +5,27 @@ Website Name: Personal Portfolio for Blake Murdock
 Purpose: This file contains all of the javascript and jQuery functions that are used by my portfolio website
 */
 
+// PAGE TRANSITION
+// Speed of fade in transition
 var speed = 'slow';
-
+//Hide html and body, until the page is loaded, for proper fade in
 $('html, body').hide();
 $(document).ready(function () {
+    // Begin fade in function
     $('html, body').fadeIn(speed, function () {
-        $('a[href], button[href]').click(function (event) {
+        //When a <a href> is clicked
+        $('a[href]').click(function (event) {
+            // Assign variable url to the attribute of the href (The web address)
             var url = $(this).attr('href');
-            if (url.indexOf('#') == 0 || url.indexOf('javascript:') == 0) return;
+            // Prevent immediate loading of link
             event.preventDefault();
+            // Fade out current window
             $('html, body').fadeOut(speed, function () {
+                // Load url variable, now that screen is faded out
                 window.location = url;
+                // Remove jsNotLoaded class. This prevents the page flicker during the time between page being loaded and document being ready (When this function triggers)
+                $('html').removeClass('jsNotLoaded');
             });
         });
     });
 });
-
-$("#privacy").click(function () {
-    alert("jQuery Test!!");
-});
-
-$("#termsOfUse").click(function () {
-    alert("jQuery Test!!");
-});
-
-// media query change
-function WidthChange(mq) {
-
-    if (mq.matches) {
-        console.log("500px");
-    }
-    else {
-        console.log("Less than 500px");
-    }
-
-};
